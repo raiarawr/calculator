@@ -1,0 +1,117 @@
+body{
+            background-image: url(p.jpg);
+            background-size:cover;
+            background-position:center;
+            background-repeat:repeat;
+            font-family: Consolas, monospace;
+        }
+        .calc{
+            text-align:center;
+            margin: auto;
+            background-color: darkgray;
+            border:1px solid rgb(65, 64, 64);
+            width: 30.5%;
+            height: 630px; 
+            border-radius: 25px;
+            box-shadow: 0 5px 40px black;
+        }
+        .maininput{
+            margin-top:40px;
+            background-color: rgb(229, 230, 229);
+            border: 1px solid gray;
+            height: 60px; 
+            width: 89%; 
+            font-size: 50px;
+            text-align:right;
+            color: rgb(83, 83, 83);
+            font-weight: 00;
+            padding: 10px;
+            margin: 10px auto;
+            border-radius: 5px;
+            pointer-events: none;
+            border:1px solid rgb(65, 64, 64);
+            border-radius:15px;
+        }
+        .numbtn{
+            padding: 25px 30px;
+            border-radius: 10px;
+            font-weight: 500;
+            background-color: #E1D9D1;
+            color:black;
+        }
+        .numbtn:hover{
+            background-color: #DCD7C8;
+            color: black;
+        }
+        .calbtn{
+            padding: 25px 30px;
+            border-radius: 10px;
+            font-weight: 500;
+            background-color: #2C2D2D;
+            color:white;
+            float:right;
+        }
+        .calbtn:hover{
+            background-color: black;
+            color: white;
+        }
+        .c{
+            padding: 25px 30px;
+            border-radius: 10px;
+            font-weight: 500;
+            background-color: rgb(206, 147, 20);
+            color:black;
+            float:right;     
+        }
+        .c:hover{
+            background-color: rgb(180, 111, 7);
+            color: whitesmoke;
+        }
+        .equal{
+            padding: 25px 30px;
+            border-radius: 10px;
+            font-weight: 500;
+            background-color: #2C2D2D;
+            color:white;
+        }
+        .equal:hover{
+            background-color: black;
+            color: white;
+        }
+        h2{
+            color:rgb(13, 24, 82);
+            font-size:x-large;
+            text-align:center;
+            margin-top:10px;
+            margin-bottom:20px;
+            /* border:2px solid black; */
+            width:60%;
+            margin-left:72px;
+            text-align:center;
+            margin-top:35px;
+            /* border-radius:5px; */
+        }
+
+        .numbtn,
+        .calbtn,
+        .c,
+        .equal {
+            padding: 25px 30px;
+            border-radius: 15px;
+            font-weight: 500;
+            font-size: medium;
+            transition: transform 0.2s ease;
+            margin: 5px;
+        }
+        .numbtn:hover,
+        .calbtn:hover,
+        .c:hover,
+        .equal:hover {
+            transform: translateY(2px);
+        }
+        .numbtn:active,
+        .calbtn:active,
+        .c:active,
+        .equal:active {
+            transform: translateY(4px);
+        }
